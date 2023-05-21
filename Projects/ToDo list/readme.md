@@ -1,1 +1,1 @@
-[https://todolistxxx.ccbp.tech/](Click) here to view the TODO Project
+[todolistxxx.ccbp.tech/](Click here) here to view the TODO Project
