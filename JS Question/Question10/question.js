@@ -45,6 +45,6 @@ let jargon = "jargon"
 console.log(python.length);//6
 console.log(jargon.length);//6
 
-if (python.length == jargon.length) {
+{
     console.log(`Length of ${python} & ${jargon} is : ${python.length}`);
 }//Length of python & jargon is : 6
