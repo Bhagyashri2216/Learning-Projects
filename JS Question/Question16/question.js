@@ -18,5 +18,5 @@ function season(month) {
     }
 }
 
-const whichSeason = season("March");
+let whichSeason = season("March");
 console.log(whichSeason);
