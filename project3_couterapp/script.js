@@ -1,6 +1,6 @@
 
 
-
+//The parseInt() function accepts a string and converts it into an integer.
 
 
 let counterElement=document.getElementById("counterValue");
