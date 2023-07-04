@@ -14,7 +14,7 @@ function Buttonstop(){
     readyButtonEl.style.backgroundColor ="#1f1d41";
 
     goLightEl.style.backgroundColor="#4b5069";
-    ggoButtonEl.style.backgroundColor="#1f1d41";
+    goButtonEl.style.backgroundColor="#1f1d41";
 
 }
 
@@ -33,7 +33,7 @@ function Buttonready(){
 
 function Buttongo(){
     goLightEl.style.backgroundColor = "#199473";
-    goLightEl.style.backgroundColor = "#199473" ;
+    goButtonEl.style.backgroundColor = "#199473" ;
 
     stopLightEl.style.backgroundColor ="#4b5069";
     stopButtonEl.style.backgroundColor ="#1f1d41";

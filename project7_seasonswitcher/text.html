@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png" class="season-image d-inline d-md-none" id="seasonSmallImage" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png" class="season-image d-none d-md-inline" id="seasonMediumImage" />
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <button class="button spring-button" id="springBtn" onclick="changeSeasonToSpring()">Spring</button>
+            <button class="button summer-button" id="summerBtn" onclick="changeSeasonToSummer()">Summer</button>
+            <button class="button autumn-button" id="autumnBtn" onclick="changeSeasonToAutumn()">Autumn</button>
+            <button class="button winter-button" id="winterBtn" onclick="changeSeasonToWinter()">Winter</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
