@@ -17,7 +17,7 @@ function restartButtonFunction() {
     gameResult.textContent = "";
     userInput.value = "";
 }
-restartButtonFunction();
+restartButtonFunction(); // call the function to display the values and to reset userinput values.
 
 
 function checkButtonFunction() {
