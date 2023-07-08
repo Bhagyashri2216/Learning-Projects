@@ -6,7 +6,7 @@ let padding_input = document.getElementById('paddingInput');
 let border_input = document.getElementById('borderRadiusInput');
 let my_button = document.getElementById("customButton");
 
-function applly() {
+function apply() {
     let color_value = color_input.value;
     let font_value = font_input.value;
     let font_size_value = font_size.value;
