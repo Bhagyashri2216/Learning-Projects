@@ -6,10 +6,11 @@ let attractionsTabContainer = document.getElementById("attractionsTab");
 
 let aboutButton = document.getElementById("aboutButton");
 let timeToVisitButton = document.getElementById("timeToVisitButton");
-let attractionsButton = document.getElementById("attractionsButton");
+let attractionsButton = document.getElementById("attractionsButton"); 
 
 timeToVisitTabContainer.classList.add("d-none");
 attractionsTabContainer.classList.add("d-none");
+
 
 function aboutVaranasi() {
     aboutButton.classList.add("selected-button");
