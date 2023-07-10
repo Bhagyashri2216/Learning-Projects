@@ -31,7 +31,8 @@ hr{
  .link{
     text-decoration: none;
     padding: 0.5rem 1rem ;
-
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
  }
  /* read-naming convention for css BEM */
  .link-primary {
@@ -63,6 +64,7 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
+    color: white;
     
 }
 .navigation .nav-pills{
@@ -113,6 +115,10 @@ font-weight: bold;
 }
 .footer .link{
     color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer ul{
    padding-inline-start: 0px; 
