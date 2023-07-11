@@ -5,7 +5,7 @@ let profileDetails = {
 };
 
 let profileContainerEl=document.getElementById("profileContainer");
-profileContainerEl.classList.add("d-flex", "text-center", "flex-column", "justify-content-center"  )
+profileContainerEl.classList.add( "text-center","d-flex", "flex-column", "justify-content-center"  )
 
 //1.accessing img container created in html
 let imgContainerEl=document.getElementById("imgContainer");
