@@ -45,7 +45,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: 1.03rem;
 
 }
 .left{
@@ -83,9 +83,22 @@ nav ul li a:hover{
   font-size: 50px;
 }
 
-logo {
-    height: 50px; 
-    margin: 10px;
-    border-radius: 100%;
-    <img class="logo" src="images/b_f_.jpg" alt="logo">
+.buttons>a, button {
+    margin-top:0px;
+    margin-bottom: 30px;
+    margin-left: 7.5rem;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--primary-color);
+    color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: .4s;
+
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
