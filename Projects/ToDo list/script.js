@@ -1,34 +1,29 @@
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 
 let addTodoButton = document.getElementById("addTodoButton");
+
+let saveTodoButton=document.getElementById("saveTodoButton");
+
+function getTodoListFromLocalStorage(){
+  let strigifiedTodoList = localStorage.getItem("todoList");
+  let parseTodoList = JSON.parse(strigifiedTodoList);
+
+  if (parseTodoList === null){
+    return [];
+  }
+  else{
+    return parseTodoList;
+  }
+}
+
+
 //creating list of items add assigning id to it 
-let todoList = [
-   {
-    text : "Learn Html",
-    uniqueNo : 1
-   },
-   {
-    text : "Learn CSS",
-    uniqueNo : 2
-   },
-   {
-    text : "Learn JavaScript",
-    uniqueNo : 3
-   },
-   {
-    text : "Learn Bootstrap",
-    uniqueNo : 4
-   },
-   {
-    text : "Learn React.js",
-    uniqueNo : 5
-   },
-   {
-    text : "Learn Node.js",
-    uniqueNo : 6
-   }
-  ];
-  let  todosCount = todoList.length
+let todoList = getTodoListFromLocalStorage();
+saveTodoButton.onclick=function(){
+  localStorage.setItem("todoList", JSON.stringify(todoList)) 
+};
+
+let  todosCount = todoList.length
   //as we call this function below defining here to access checkbox element
   function onTodoStatusChange(checkboxId, labelId){
     let checkboxElement =document.getElementById(checkboxId);
@@ -123,10 +118,13 @@ function onAddTodo(){
   }
 
   todosCount = todosCount+1;
+
   let newTodo ={
     text: userInputValue,
     uniqueNo:todosCount
-  }
+  };
+  
+  todoList.push(newTodo);
   createAndAppendTodo(newTodo);
   userInputElement.value="";
 }
