@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.product-bg{
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-darkpink-bg.png");
+    min-height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    font-family: "Roboto";
+     align-items: center;
+        justify-content: center;
+}
+.product-img{
+    width:180px;
+    align-self: center;
+}
+.product-sub-heading{
+    color: #8e62d9;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.product-heading{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 18px;}
+.product-discription{
+  color: #fff;
+  font-weight: lighter;
+  font-size: 18px;
+}
+    
+.product-button{
+    background-color: #ffdda9;
+    border: 0;
+    height: 35px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: bold;
+    
+}
+@media screen and (min-width: 900px){
+    .product-bg{
+        flex-direction: row;
+        align-items: center;
+        padding: 30px;
+        justify-content: center;
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-blue-bg.png");
+    }
+    .product-img{
+        width: 300px;
+        order:1;
+        
+    }
+}
