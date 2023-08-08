@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.palette-bg {
+    min-height: 100vh;
+    font-family: "Roboto";
+    color: #fff;
+    padding: 20px;
+}
+
+.palette-heading-con {
+    max-width: 800px;
+}
+
+.palette-heading {
+    font-weight: bold;
+    color: #011e3f;
+    font-size: 50px;
+}
+
+.palette-boxes-con {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* *{
+    border: 2px solid red;
+} */
+
+.palette-box-con {
+    background: #000;
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px 5px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.palette-box-text-con {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.box-red {
+    background-color: #f87171;
+}
+
+.box-Orange {
+    background-color: #fb923c;
+}
+
+.box-Amber {
+    background-color: #fbbf24;
+}
+
+.box-Yellow {
+    background-color: #facc15;
+}
+
+.box-Lime {
+    background-color: #a3e635;
+}
+
+.box-Green {
+    background-color: #4ade80;
+}
+
+.box-Emeraid {
+    background-color: #34d399;
+}
+
+.box-Cyan {
+    background-color: #22d3ee;
+}
+
+.box-LightBlue {
+    background-color: #38bdf8;
+}
+
+.box-Blue {
+    background-color: #60a5fa;
+}
+
+.box-Indigo {
+    background-color: #818cf8;
+}
+
+.box-Purple {
+    background-color: #c084fc;
+}
+
+.box-Fuchsia {
+    background-color: #e879f9;
+}
+
+.box-Pink {
+    background-color: #f472b6;
+}
+
+.box-Rose {
+    background-color: #fb7185;
+}
+
+.palette-color {
+    font-size: 22px;
+}
